@@ -23,12 +23,14 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
             <TextBlock x:Name="ApplicationTitle" Text="UI ELEMENTS" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="PageTitle" Text="numbers" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBox Height="72" HorizontalAlignment="Left" Margin="12,21,0,0" Name="textBox1" Text="TextBox" VerticalAlignment="Top" Width="460" />
+        <TextBox Height="72" HorizontalAlignment="Left" Margin="12,48,0,0" Name="numberTextBox" Text="" VerticalAlignment="Top" Width="438">
+        </TextBox>
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="26,26,0,0" Name="textBlock1" Text="Number" VerticalAlignment="Top" />
         </Grid>
     </Grid>
  
